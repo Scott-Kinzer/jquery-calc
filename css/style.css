@@ -1,0 +1,89 @@
+/* Write your styles here */
+
+.container {
+    max-width: 1140px;;
+    margin: 0 auto;
+    display: flex;
+}
+
+
+.wrapper-calc {
+    width: 50%;
+    /* background: grey;; */
+    display: flex;
+    flex-wrap: wrap;
+    
+    background: bisque;
+    margin: 0 auto;
+    justify-content: center;
+    
+}
+
+.item {
+    width:26%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: grey;
+    margin: 5px;
+    font-size: 23px;
+    cursor: pointer;
+}
+
+.table {
+    width: 100%;
+    background: olive;
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.logTable {
+    width: 40%;
+    background: khaki;
+    min-height: 100px;
+    display: flex;
+    /* justify-content: center; */
+    font-size: 30px;
+    flex-direction: column;
+    align-items: center;
+    height: 200px;
+    overflow-y:scroll;
+
+
+}
+
+.circle {
+    width: 50px;
+    height: 50px;
+    border: 3px solid red;
+    border-radius: 50%;
+    
+}
+
+.log-item {
+    display: flex;
+    margin:  0 10px 0 10px;
+}
+
+.wrap-item {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.active {
+    background: red;
+}
+
+.close:hover {
+    color: red;
+}
+
+.underline {
+    text-decoration: underline;
+}
